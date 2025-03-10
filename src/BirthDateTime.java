@@ -24,7 +24,7 @@ public class BirthDateTime {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Get user input for birth year, month, and day
+
         int year = getRangedInt(scanner, "Enter your birth year", 1950, 2015);
         int month = getRangedInt(scanner, "Enter your birth month", 1, 12);
 
